@@ -35,7 +35,7 @@ app.get("/topics/:id", (req, res) => {
 // Route using JSON file
 
 app.get('/foods', (req, res) => res.send(results))
-// Route using JS File
+// Route using data.js 
 
 
 // Starting the Sever
