@@ -32,8 +32,6 @@ app.get("/topics/:id", (req, res) => {
         res.status(404).send(err.message);        
     }
   });
-
-
 // Route using JSON file
 
 app.get('/foods', (req, res) => res.send(results))

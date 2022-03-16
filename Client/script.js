@@ -1,5 +1,21 @@
 //Event Listeners
 
+const searchButton = document.getElementById('search')
+const randomButton = document.getElementById('randombutton')
+
+function showResults(e){
+    e.preventDefault();
+    let submitter = e.submitter
+    if (topic != ""){
+        fetch(`http://localhost:8080/topics/${topic}`)
+        .then(resp => resp.text())
+        .then(data => {
+
+        })
+    }
+}
+
+
 
 
 //for js file
