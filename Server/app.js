@@ -20,6 +20,7 @@ app.get('/', (req, res) => res.send('Hello World'))
 app.get('/topics', (req, res) => {
     res.json(resources)
 });
+// Route using data.json
 
 app.get("/topics/:id", (req, res) => {
     try {
@@ -32,7 +33,7 @@ app.get("/topics/:id", (req, res) => {
         res.status(404).send(err.message);        
     }
   });
-// Route using JSON file
+// Route for particular indexes, throwing an error if item doesn't match id
 
 app.get('/foods', (req, res) => res.send(results))
 // Route using data.js 
