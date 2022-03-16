@@ -17,7 +17,7 @@ Trying to replicate the google search
 - Managed to have api server up and running with correct endpoints.
 - Replicated design layout of Google precisely
 
-  ![Screenshot](https://github.com/SarushanThiy/Google-PairProject/blob/dev3/Client/Screenshot.png)
+  ![Screenshot](https://imgur.com/a/e9i3Cd5)
 
 ## Problems and Challenges
 
