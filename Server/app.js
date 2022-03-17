@@ -43,25 +43,4 @@ app.get('/foods', (req, res) => res.send(results))
 app.listen(port, () => console.log(`its alive on http://localhost:${port}`))
 
 
-
-
-
-
-
-
-
-
-
-// app.get("/topics/id", (req, res) => {
-//     try {
-//         let quoteId = req.params.id;
-//         if (!resources[quoteId]){
-//             throw new Error (`Error: no search results for ${quoteId}.`);
-//         }
-//         res.json(resources[quoteId])
-//     } catch (err){
-//         res.status(404).send(err.message)
-//     }
-// })
-
 module.exports = app;
